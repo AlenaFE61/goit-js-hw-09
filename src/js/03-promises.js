@@ -41,4 +41,3 @@ function onStart(event) {
   delay +=Number(startBtn.delay.value);
 }
 }
-// www
