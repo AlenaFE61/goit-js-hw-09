@@ -28,7 +28,7 @@ function onStart(event) {
 
   event.preventDefault();
 
-  let delay = Number(startBtn.delay.value);
+  let delay = Number(startBtn.delay.step);
 
   for (let i = 1; i <= startBtn.amount.value; i += 1) {
     createPromise(i, delay)
